@@ -24,14 +24,14 @@ def top3_tage(history):
     return tage.most_common(3)
 
 
-st.set_page_config(page_title="Contador de llamadas de Benedikt ", page_icon="🔢", layout="centered")
+st.set_page_config(page_title="Contador de llamadas de Benedikt", page_icon="🔢", layout="centered")
 
 if "data" not in st.session_state:
     st.session_state.data = load_data()
 
 data = st.session_state.data
 
-st.title("🔢 contador Benedikt")
+st.title("🔢 Contador de llamadas de Benedikt")
 st.markdown("---")
 
 st.markdown(
